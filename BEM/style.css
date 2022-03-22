@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+:root {
+    --color: #0d6b4c
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.cart {
+    width: 30%;
+    padding: 20px;
+}
+
+.cart__imgMember {
+    position: relative;
+    padding: 10%;
+}
+
+.cart__imgMember img {
+    width: 100%;
+    border-radius: 1000px;
+}
+
+.cart__imgMember img + img {
+    position: absolute;
+    width: 15%;
+    right: 5%;
+    top: 60%;
+}
+
+.cart__header {
+    color: var(--color);
+    font-weight: bold;
+    
+}
+
+.cart__txt {
+    height: 15vh;
+    line-height: 1.6rem;
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+    display: -webkit-box;
+    line-height: 2;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cart__helpSession {
+    display: inline-block;
+}
+
+.cart__helpSession__session {
+    display: flex;
+}
+
+.cart__helpSession div {
+    display: flex;
+}
+
+.cart__helpSession div img{
+    width: 20%;
+    margin-right: 10px;
+}
+
+.cart__title {
+    color: var(--color);
+    font-weight: 600
+}
+
+.cart__item img {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.cart__item {
+    background-color: #f4ffe9;
+    padding: 20px;
+    display: flex;
+}
