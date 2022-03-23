@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Red Hat Mono", monospace;
+}
+
+.shop {
+  width: 100%;
+}
+
+.header {
+  padding: 0 5%;
+  width: 90%;
+}
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__container .header__left {
+  width: 15%;
+}
+.header__container .header__right {
+  margin-left: 15%;
+  float: right;
+}
+.header .title-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 25%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .title-bar a {
+  text-decoration: none;
+  color: #3b3b3c;
+}
+.header .title-bar a:hover {
+  color: #117e5b;
+}
+
+.body .heroImg {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-image: url(https://thegrovela.com/wp-content/uploads/2017/05/The-Grove_Dining-Page_Hero.jpg);
+}
+.body .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body .content__header {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.17em;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #3b3b3c;
+  color: white;
+  margin-top: 0px;
+}
+.body .content__body {
+  width: 60%;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 500;
+  color: #3b3b3c;
+}
+.body .container {
+  width: 100%;
+  text-align: center;
+}
+.body .container__filter {
+  width: 100%;
+  margin-top: 50px;
+}
+.body .container__filter select {
+  padding: 15px;
+  width: 38%;
+  border: 1px solid #3b3b3c;
+  font-family: "Red Hat Mono", monospace;
+}
+.body .container__listItem {
+  margin-top: 100px;
+  width: 80%;
+  padding: 0px 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.body .container__listItem .small-cart__Item {
+  max-width: 20%;
+  margin-left: 50px;
+  font-weight: 500;
+  color: #3b3b3c;
+}
+.body .container__listItem .small-cart__Item:hover {
+  color: #117e5b;
+}
+.body .container__listItem .small-cart__Item:hover img {
+  transform: scale(1.1);
+}
+.body .container__listItem .small-cart__Item img {
+  width: 100%;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__container {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

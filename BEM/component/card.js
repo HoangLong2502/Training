@@ -1,4 +1,4 @@
-class Cart {
+class Card {
     $container;
     $imgMember;
     $svgPlay;
@@ -142,4 +142,4 @@ class Cart {
     }
 }
 
-export { Cart }
+export { Card }
